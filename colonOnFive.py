@@ -1,6 +1,6 @@
 square_of_a = None
 with open('input.txt', 'r') as input_file:
-    a = input_file.readline()
+    a = input_file.readline().strip()
     if len(a) == 1:
         square_of_a = str(int(a) ** 2)
     else:
